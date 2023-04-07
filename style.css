@@ -2,3 +2,28 @@ html {
   height: 100%;
   width: 100%;
 }
+
+div {
+  margin: auto;
+	width: 75vw;
+  overflow: hidden;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  transform: translateY(-50%);
+  position: absolute;
+}
+
+.text {
+	font-family: sans-serif;
+  font-size: 10vw;
+  font-weight: bold;
+	text-align: center;
+	margin: auto;
+
+	color: black;
+	mix-blend-mode: lighten;
+	background-color: white;
+}
